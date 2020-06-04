@@ -1,39 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Jiggle Into JavaScript</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Buddy</title>
 </head>
 <body>
 
-    <p>Press the buttons to move the box!</p>
+    <header>
+        <h1>
+            <a href="/">RUN BUDDY</a>
+        </h1>
+        <nav>
+            <!-- Unordered list element -->
+            <ul>
+                <!-- List item element -->
+                <li>
+                    <!-- Anchor element -->
+                    <a href="#what-we-do">What We Do</a>
+                </li>
+                <li>
+                    <a href="#what-you-do">What You Do</a>
+                </li>
+                <li>
+                    <a href="#your-trainers">Your Trainers</a>
+                </li>
+                <li>
+                    <a href="#reach-out">Reach Out</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
-
-    <button id="shrinkBtn">Shrink</button>
-    <button id="growBtn">Grow</button>
-    <button id="resetBtn">Reset</button>
-
-    <script type="text/javascript">
-
-        document.getElementById("shrinkBtn").addEventListener("click", function(){
-
-            document.getElementById("box").style.height = "25px";
-
-        });
-
-        document.getElementById("growBtn").addEventListener("click", function(){
-
-            document.getElementById("box").style.height = "250px";
-
-        });
-
-        document.getElementById("resetBtn").addEventListener("click", function(){
-
-            document.getElementById("box").style.height = "150px";
-
-        });
-
-    </script>
+    <h2>What We Do</h2>
+    <h2>What You Do</h2>
+    <h2>Meet The Trainers</h2>
+    <h2>Reach Out</h2>
+    <footer>
+        <h2>❤ Made with love by Run Buddy</h2>
+    </footer>
 
 </body>
 </html>
