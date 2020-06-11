@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -67,6 +81,18 @@
     margin: 0 auto;
 }
 
+.reach-out-style {
+    background: #024e76;
+    color: #fce138;
+    text-align: center;
+}
+
+.reach-out-style h2 {
+    color: #fce138;
+    border-width: 0 0 3px 0;
+    border-color: teal;
+}
+
 .steps {
     text-align: center;
     background: #fce138;
@@ -105,6 +131,7 @@
 }
 
 .section-title {
+    text-align: center;
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
