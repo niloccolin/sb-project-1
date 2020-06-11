@@ -4,8 +4,58 @@
     box-sizing: border-box;
 }
 
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* Hero Style End */
+
+.hero-form {
+    width: 550px;
+    color: #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 100px;
+    right: 140px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.hero-form p {
+    padding: 8px;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+}
+
+.hero-form button {
+    background-color: #024e76;
+    color: #fce138;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    font-size: 16px;
+}
+
 body {
-    /* comment */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -72,4 +122,8 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+section {
+    padding: 60px;
 }
