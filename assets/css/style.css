@@ -298,10 +298,6 @@ header h1 a {
 header nav {
     margin: 7px 0;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 25f39dd6d329923b1dc6bbe9c3a41994777075a2
 header nav ul {
     display: flex;
     flex-wrap: wrap;
